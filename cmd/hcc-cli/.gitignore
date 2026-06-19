@@ -1,0 +1,28 @@
+# Build outputs
+hcc-cli
+hcc-wallet
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Go test/build files
+*.test
+*.out
+coverage.out
+
+# Local configuration and wallet data
+config.json
+wallets.json
+wallet_store.json
+*.db
+*.sqlite
+*.sqlite3
+.env
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
