@@ -10,7 +10,12 @@ existing HCC secret created by the web client, GUI client, or signup tool.
 ## Build
 
 ```bash
-go build -o hcc-cli ./cmd/hcc-cli
+sudo apt update
+sudo apt install -y git golang-go
+git clone https://github.com/Hashcash-PoW-Faucet/HCC-CLI-Wallet.git
+cd HCC-CLI-Wallet
+go mod download
+go build -o hcc-cli .
 ```
 
 Install it somewhere in `PATH`:
